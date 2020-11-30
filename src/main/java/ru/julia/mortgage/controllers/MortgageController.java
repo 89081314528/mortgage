@@ -25,7 +25,7 @@ public class MortgageController {
         return "9,6%" + "<br/>" + " 1800 000";
     }
 
-private final MortgageService mortgageService;
+    private final MortgageService mortgageService;
 
     public MortgageController(MortgageService mortgageService) {
         this.mortgageService = mortgageService;
